@@ -1,0 +1,57 @@
+*
+{
+    background-color: rgb(98, 49, 211);
+}
+.loginPage
+{
+    padding:17% 36% auto;
+    background-color: aliceblue;
+    width:40%;
+    display:inline-flex;
+    flex-flow: row nowrap;
+}
+.loginPage>form
+{
+    width:100%;
+    border: 1px solid rgb(6, 172, 172);
+    box-shadow: 1px 1.5px 1px 1.5px cyan;
+    padding:10px 5px 3px;
+    text-align: center;
+}
+.loginPage>form>h2
+{
+    text-align: center;
+    padding-bottom: 3px;
+}
+.loginPage>form>h2>span>button>
+{
+    float:right;
+    width:fit-content;
+    position:relative;
+    margin-left:5px;
+    margin-top:-17px;
+    padding:10px;
+    height:4%;
+    background-color:transparent;
+    color:red;
+    border:none;
+    cursor:pointer;
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.loginPage>form>h2>span>button:hover{
+    box-shadow: 0px 0.5px 2px 0.5px darkcyan;
+}
+.loginPage>form>input[type=text],
+input[type=password] {
+    width:22rem;
+    border:none;
+    border-top:1.5px solid transparent;
+    border-bottom:1.5px solid darkcyan;
+    outline:none;
+    margin:20px 10px 10px;
+    transition:ease;
+    
+}
+
